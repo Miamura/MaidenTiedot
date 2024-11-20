@@ -1,0 +1,25 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 2px solid #0056b3;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.search-container input:focus {
+  border-color: #003d80;
+  box-shadow: 0 0 8px rgba(0, 85, 179, 0.5);
+}
+
+.search-container input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
